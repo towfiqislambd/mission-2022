@@ -1,0 +1,284 @@
+/* =========== Common CSS ============ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Yeseva One", serif;
+}
+
+/* =========== Reuseable Components ============ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.btn-primary {
+    background: #FF5959;
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.section-title {
+    color: rgb(19, 16, 58);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 2.2rem;
+}
+
+.section-title span {
+    color: rgb(255, 173, 90)
+}
+
+/* =========== Header Part ============ */
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hero-wrapper>div {
+    flex: 1
+}
+
+.hero-wrapper img {
+    width: 70%;
+}
+
+.hero-img {
+    text-align: center;
+}
+
+.hero-wrapper h1 {
+    border-left: 3px solid #FF5959;
+    border-radius: 2px;
+    padding-left: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.8rem;
+}
+
+.hero-wrapper h1 span {
+    color: rgb(255, 173, 90)
+}
+
+.hero-wrapper p {
+    color: rgba(62, 62, 62, 0.9);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 75%;
+    margin: 25px 0;
+}
+
+/* =========== Card Section ============ */
+
+.card-wrapper {
+    display: flex;
+    gap: 25px
+}
+
+.single-card {
+    border-radius: 8px;
+    background: rgba(79, 157, 166, 0.1);
+    padding: 40px 25px;
+}
+
+.single-card:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.single-card:nth-child(3) {
+    background: #fff4d6
+}
+
+.single-card img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.single-card h3 {
+    margin-bottom: 10px;
+}
+
+.single-card p {
+    color: rgb(66, 66, 66);
+    line-height: 1.5rem;
+}
+
+/* =========== Contribute Section ============*/
+
+#contribute {
+    padding-bottom: 0;
+}
+
+.contribute-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.contribute-wrapper .contribute-content {
+    width: 60%;
+}
+
+.contribute-wrapper .contribute-img {
+    width: 40%;
+}
+
+.contribute-wrapper img {
+    width: 100%;
+}
+
+.contribute-content h2 {
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 2.3rem;
+}
+
+.contribute-content p,
+.build-wrapper p {
+    margin-bottom: 20px;
+    width: 90%;
+    color: rgb(62, 62, 62);
+}
+
+.contribute-img {
+    padding-right: 5%;
+    z-index: 9999;
+}
+
+.contribute-img2 {
+    padding-left: 5%;
+    padding-right: 0;
+}
+
+#contribute {
+    position: relative;
+}
+
+#contribute>img {
+    position: absolute;
+    width: 200px;
+    left: 1rem;
+    top: 12%
+}
+
+.shape img[src="images/shapes/shape-1.png"] {
+    position: absolute;
+    width: 150px;
+    right: 15px;
+    bottom: 0;
+    transform: translate(-30px, 50px);
+}
+
+/* =========== Build Section ============*/
+#build {
+    padding-top: 0;
+}
+
+.build-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.build-wrapper>div {
+    flex: 1
+}
+
+.build-wrapper .build-img {
+    text-align: center;
+}
+
+.build-wrapper img {
+    width: 70%;
+    height: 500px;
+}
+
+.build-wrapper h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.3rem;
+}
+
+.build-wrapper h2 span {
+    color: rgb(255, 173, 90)
+}
+
+.build-img {
+    position: relative;
+}
+
+.build-img .build-img1 img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15%;
+    top: -10px;
+    z-index: -1;
+}
+
+.build-img .build-img2 img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 18%;
+    bottom: 5%;
+    z-index: -1;
+}
+
+.build-img .build-img3 img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 18%;
+    bottom: 30%;
+    z-index: -1;
+}
+
+/* =========== Footer Part ============ */
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: rgb(11, 13, 23);
+    color: #ffffff80
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-family: cursive;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer h3 span {
+    color: rgb(255, 89, 89);
+}

@@ -1,0 +1,99 @@
+@media screen and (max-width:992px) {
+    .hero-wrapper img {
+        width: 100%;
+    }
+
+    .hero-wrapper h1 {
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+    }
+
+    .hero-wrapper p,
+    .contribute-content p,
+    .build-wrapper p {
+        width: 100%;
+    }
+
+    .card-wrapper {
+        gap: 15px
+    }
+
+    .build-wrapper img {
+        width: 80%;
+        height: 450px;
+    }
+
+    #contribute>img,
+    .shape,
+    .build-img .build-img1,
+    .build-img .build-img2,
+    .build-img .build-img3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero-wrapper {
+        flex-direction: column-reverse;
+        gap: 30px
+    }
+
+    .hero-wrapper img {
+        width: 70%;
+    }
+
+    .card-wrapper {
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .contribute-wrapper,
+    .build-wrapper {
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .contribute-wrapper2 {
+        flex-direction: column-reverse;
+    }
+
+    .contribute-img {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .contribute-img img {
+        height: 400px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .contribute-wrapper .contribute-content {
+        width: 100%;
+    }
+
+    .contribute-wrapper .contribute-img {
+        width: 100%;
+    }
+
+    .build-wrapper img {
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .hero-wrapper img {
+        width: 100%;
+    }
+
+    .hero-wrapper h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .contribute-img img {
+        height: auto;
+    }
+}
